@@ -12,7 +12,7 @@ jobs:
     permissions:
       packages: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Checkout repo, grab paperless version
         id: getVersion
         run: echo "PAPERLESS_VERSION=$(grep FROM Dockerfile | awk -F ":" '{print $2}')" >> $GITHUB_ENV
