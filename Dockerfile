@@ -1,4 +1,4 @@
-FROM ghcr.io/paperless-ngx/paperless-ngx:3.0.4
+FROM ghcr.io/paperless-ngx/paperless-ngx:3.0.5
 
 RUN apt-get update \
   && apt-get install -y --no-install-recommends \
